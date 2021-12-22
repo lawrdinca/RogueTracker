@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize')
 
 const sequelize = new Sequelize({
     dialect:'sqlite',
-    storage: './sqlite/FoodList.db'
+    storage: './sqlite/IncidentsList.db'
 })
 
 sequelize.sync({
